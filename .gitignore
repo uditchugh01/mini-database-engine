@@ -1,0 +1,8 @@
+*.exe
+*.o
+/minidb
+/benchmark
+minidb.dat
+minidb.dat.tmp
+minidb.dat.corrupt
+.vscode/
