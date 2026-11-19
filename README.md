@@ -115,8 +115,9 @@ Measured on: **<your CPU / laptop, OS>**
 
 | Rows | Full scan (per lookup) | With index (per lookup) | Speed-up |
 |---|---|---|---|
-| 10,000 | 6.66 ms | 0.0047 ms | ~1430x |
-| 100,000 | 5.529 ms | 0.0201 | ~393.579 |
+| 10,000 | 4.64 ms | 0.0047 ms | ~980x |
+| 100,000 | 93.9 ms | 0.0063 ms | ~15000x |
+|500,000  | 685 ms | 0.0077 ms  | ~89,000x |
 
 A full scan grows linearly with the table size, while the indexed lookup stays almost flat.
 
